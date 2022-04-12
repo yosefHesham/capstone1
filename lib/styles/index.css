@@ -1,0 +1,23 @@
+:root {
+ --grey: #d3d3d3;
+ --black:#272a31;
+ --orange:#ec5242;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.img {
+  padding: 0;
+  margin: 0;
+}
+
+.headline {
+  margin: 0;
+  width: 100%;
+  background-size: cover;
+  background-color: var(--grey);
+}
+.hint , .logo {
+  color: var(--orange);
+}
