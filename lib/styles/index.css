@@ -1,23 +1,45 @@
 :root {
- --grey: #d3d3d3;
- --black:#272a31;
- --orange:#ec5242;
+  --grey: #d3d3d3;
+  --black: #272a31;
+  --orange: #ec5242;
 }
-body{
+body {
   margin: 0;
   padding: 0;
-}
-.img {
-  padding: 0;
-  margin: 0;
 }
 
 .headline {
   margin: 0;
   width: 100%;
   background-size: cover;
-  background-color: var(--grey);
+  background: url("../../images/hero.png");
+  background-size: cover;
+  padding: 3% 5%;
 }
-.hint , .logo {
+.hint {
   color: var(--orange);
+  margin-bottom: 0;
+  margin-top: 10%;
+}
+h1 {
+  color: var(--orange);
+  margin-top: 0;
+}
+.logo {
+  text-decoration: none;
+}
+.description {
+  margin: auto auto;
+  padding: 1% 2%;
+  color: var(--black);
+  border: 2mm solid white;
+}
+
+.date {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--black);
+}
+.location {
+  color: var(--black);
 }
