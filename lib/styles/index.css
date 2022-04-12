@@ -14,7 +14,9 @@ body {
   background-size: cover;
   background: url("../../images/hero.png");
   background-size: cover;
-  padding: 3% 5%;
+  padding-bottom: 30%;
+  padding-top: 2%;
+  padding-left: 5%;
 }
 .hint {
   color: var(--orange);
@@ -42,4 +44,22 @@ h1 {
 }
 .location {
   color: var(--black);
+}
+
+.main-program {
+  background-image: url("../../images/black-background.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.main-program h3 {
+  color: white;
+  margin-top: 0;
+}
+.main-program hr {
+  border-color:var(--orange);
+  width: 10%;
+  height: 1%;
+  margin: 5px auto;
 }
