@@ -7,7 +7,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.menu {
+cursor: pointer;
+}
 .headline {
   margin: 0;
   width: 100%;
@@ -48,17 +50,21 @@ h1 {
 
 .main-program {
   background-image: url("../../images/black-background.jpg");
+  width: 100%;
   background-size: cover;
   text-align: center;
   padding-top: 2%;
+  padding-right: 5%;
   padding-bottom: 10%;
   display: flex;
   flex-direction: column;
   row-gap: 10px;
 }
 
-.main-program h3 {
+.section-title {
   color: white;
+  text-align: center;
+
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -104,11 +110,16 @@ h1 {
   cursor: pointer;
 }
 
+.speakers  .section-title {
+  color: var(--black);
+  margin-top: 5px;
+}
 .speakers {
   background-color: white;
   display: flex;
   flex-direction: column;
   row-gap: 12px;
+  padding: 12px;
 }
 
 .speaker {
@@ -126,7 +137,6 @@ h1 {
 .speaker img {
   width: 25%;
   margin-top: 8px;
-  /* align-self: center; */
 }
 .speaker-details {
   display: flex;
@@ -148,4 +158,18 @@ h1 {
 .speaker-bio {
   color: gray;
   font-weight: 500;
+}
+.more-button {
+  display: flex;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  width: 95%;
+  margin:  auto;
+  text-align: center;
+  cursor: pointer;
+}
+.more-button img {
+  fill: var(--orange);
 }
