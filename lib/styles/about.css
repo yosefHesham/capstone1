@@ -1,0 +1,32 @@
+.about-wrapper {
+  margin: 0;
+  width: 100%;
+  background-size: cover;
+  background: url("../../images/hero.png");
+  background-size: cover;
+  padding-bottom: 30%;
+  padding-top: 2%;
+}
+
+.about-headline {
+  text-align: center;
+}
+.about-headline h1 {
+  padding: 5px 12px;
+}
+.menu {
+  text-align: start !important;
+  margin-right: auto;
+  margin-left: 12px;
+}
+.about-description {
+  width: 80%; 
+  margin:0 auto; 
+  padding: 15px;
+  color: var(--black);
+  background-color: white;
+  border-radius: 8px;
+}
+.logo-description {
+  color: var(--black);
+}
