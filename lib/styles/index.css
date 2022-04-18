@@ -20,6 +20,9 @@ body {
   margin-left: 10px;
 }
 
+.desktop-bar {
+  display: none;
+}
 .headline {
   width: 100%;
   background-size: cover;
@@ -43,8 +46,8 @@ h1 {
 }
 .description {
   margin: auto auto;
-  padding: 1% 2%;
   width: 85%;
+  padding: 5%;
   color: var(--black);
   border: 2mm solid white;
 }
@@ -67,7 +70,6 @@ h1 {
   background-size: cover;
   text-align: center;
   padding-top: 2%;
-  padding-right: 5%;
   padding-bottom: 10%;
   display: flex;
   flex-direction: column;
@@ -89,7 +91,6 @@ h1 {
 }
 
 .program-content {
-  padding: 2%;
   margin: auto 15px;
   display: flex;
   flex-direction: row;
@@ -132,7 +133,6 @@ h1 {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
-  padding: 12px;
 }
 
 .speaker {
@@ -142,7 +142,6 @@ h1 {
   background-position-y: 2%;
   background-repeat: no-repeat;
   width: 100%;
-  padding: 3%;
   display: flex;
   align-items: flex-start;
   column-gap: 15px;
@@ -185,4 +184,29 @@ h1 {
 }
 .more-button img {
   fill: var(--orange);
+}
+
+@media only screen and (min-width:768px) {
+  .menu {
+    display: none;
+  }
+  .desktop-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .tool-bar {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 20px;
+    align-items: center;
+  }
+  .tool-bar-item {
+    color: white;
+    cursor: pointer;
+  }
+  .last-item {
+    margin-right: 18%;
+  }
 }
