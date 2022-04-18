@@ -49,7 +49,7 @@
   padding-top: 10%;
 }
 
-.logo {
+.logo-image {
   width: 60%;
   margin: 10px auto;
   border-style: solid;
@@ -57,6 +57,8 @@
   border-color: var(--grey);
   padding: 15%;
 }
+
+
 
 .past-summits {
   text-align: center;
@@ -102,3 +104,48 @@
   color: white;
   font-weight: 500;
 }
+
+footer {
+  margin-top:  40px;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner{
+  background-color: var(--black);
+  padding-top: 20px;
+}
+.logos {
+  width: 100%;
+  margin-top: 25px;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+
+}
+
+.logos img {
+  width: 25%;
+  height: 25%;
+  margin: 0;
+}
+
+.copy-rights {
+  padding: 8% 0;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.copy-rights img {
+  height: 12%;
+  width: 12%;
+}
+
+
