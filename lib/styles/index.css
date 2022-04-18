@@ -31,12 +31,12 @@ body {
 }
 .hint {
   color: var(--orange);
-  margin-bottom: 0;
-  margin-top: 10%;
-  margin-left: 10px;
+}
+.content-wrapper {
+  margin-top: 2%;
+  margin-left: 1%;
 }
 h1 {
-
   color: var(--orange);
   margin-top: 0;
   margin-left: 10px;
@@ -231,6 +231,13 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
   }
+  .nav-list li:first-child {
+    color: var(--orange);
+  }
+  .nav-item  {
+    cursor: pointer;
+    color:var(--black)
+  }
   .cc-campaign {
     display: flex;
     align-items: center;
@@ -240,5 +247,23 @@ h1 {
     padding: 1%;
     color: var(--orange);
     cursor: pointer;
+  }
+  .headline {
+    padding-bottom: 10%;
+  }
+  .content-wrapper {
+    margin-left: 10%;
+    margin-top: 8% ;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .hint {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .description {
+    margin:  0;
+    width: 60%;
   }
 }
