@@ -1,41 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kumbh+Sans:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+  font-family: 'cocogoose';
+  src: url("fonts/cocogoose/");
+}
 :root {
   --grey: #d3d3d3;
   --black: #272a31;
   --orange: #ec5242;
 }
+
 body {
   margin: 0;
   padding: 0;
+  font-family:  "cocogoose", "lato",sans-serif;
 }
 .menu {
-cursor: pointer;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
 }
+
 .headline {
-  margin: 0;
   width: 100%;
   background-size: cover;
   background: url("../../images/hero.png");
-  background-size: cover;
   padding-bottom: 30%;
-  padding-top: 2%;
-  padding-left: 5%;
 }
 .hint {
   color: var(--orange);
   margin-bottom: 0;
   margin-top: 10%;
+  margin-left: 10px;
 }
 h1 {
+
   color: var(--orange);
   margin-top: 0;
+  margin-left: 10px;
 }
 .logo {
   text-decoration: none;
-  
 }
 .description {
   margin: auto auto;
   padding: 1% 2%;
+  width: 85%;
   color: var(--black);
   border: 2mm solid white;
 }
@@ -43,9 +52,12 @@ h1 {
 .date {
   font-size: 25px;
   font-weight: 700;
+  margin-left: 10px;
   color: var(--black);
 }
 .location {
+  margin-left: 10px;
+
   color: var(--black);
 }
 
@@ -86,8 +98,8 @@ h1 {
   background-color: rgba(39, 42, 49, 0.5);
 }
 .program-content img {
-  width: 5%;
-  height: 5%;
+  width: 7%;
+  height: 7%;
 }
 .content-title {
   color: var(--orange);
@@ -111,7 +123,7 @@ h1 {
   cursor: pointer;
 }
 
-.speakers  .section-title {
+.speakers .section-title {
   color: var(--black);
   margin-top: 5px;
 }
@@ -124,7 +136,7 @@ h1 {
 }
 
 .speaker {
-  background-image: url("../../images/chess-board.svg");
+  background-image: url("../../images/chess.jpg");
   background-size: 12%;
   background-position-x: 1%;
   background-position-y: 2%;
@@ -167,7 +179,7 @@ h1 {
   border-style: solid;
   border-color: gray;
   width: 95%;
-  margin:  auto;
+  margin: auto;
   text-align: center;
   cursor: pointer;
 }

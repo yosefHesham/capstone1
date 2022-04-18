@@ -1,10 +1,11 @@
+
 .about-wrapper {
   margin: 0;
   width: 100%;
   background-size: cover;
   background: url("../../images/hero.png");
   background-size: cover;
-  padding-bottom: 30%;
+  padding-bottom: 15%;
   padding-top: 2%;
 }
 
@@ -19,6 +20,7 @@
   margin-right: auto;
   margin-left: 12px;
 }
+
 .about-description {
   width: 80%; 
   margin:0 auto; 
@@ -26,7 +28,77 @@
   color: var(--black);
   background-color: white;
   border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+
+}
+.contact {
+  color: var(--black);
+  padding-bottom: 5%;
+  margin-top: 10%;
+}
+
+.email {
+  color: var(--black);
+  text-decoration: underline;
+  font-weight: 600;
 }
 .logo-description {
   color: var(--black);
+  background-color: white !important;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.logo {
+  width: 60%;
+  margin: 10px auto;
+  border-style: solid;
+  border-width: .5px;
+  border-color: var(--grey);
+  padding: 15%;
+}
+
+.past-summits {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.past-summits h3 {
+  color: var(--black);
+}
+
+.past-summits p {
+  color: var(--black);
+}
+
+.past-summit {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.past-summit img {
+  width: 50%;
+}
+.past-summit p {
+  margin: 0;
+}
+
+.overlay {
+  background-color:rgb(236, 82, 66,.5);
+ position: absolute;
+ width: 50%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ row-gap: 12px;
+}
+.overlay p {
+  z-index: 2;
+  color: white;
+  font-weight: 500;
 }
