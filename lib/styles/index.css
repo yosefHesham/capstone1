@@ -209,4 +209,36 @@ h1 {
   .last-item {
     margin-right: 18%;
   }
+
+  .navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  .nav-logo img {
+    width: 40%;
+    height: 40%;
+  }
+  .nav-list {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .cc-campaign {
+    display: flex;
+    align-items: center;
+    border:var(--orange);
+    border-style: solid;
+    border-width: 2px;
+    padding: 1%;
+    color: var(--orange);
+    cursor: pointer;
+  }
 }
