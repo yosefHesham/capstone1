@@ -236,6 +236,7 @@ footer {
   }
 
   .navbar {
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -243,11 +244,11 @@ footer {
   .nav-logo {
     display: flex;
     align-items: center;
+    width: 30%;;
     column-gap: 10px;
   }
   .nav-logo img {
-    width: 40%;
-    height: 40%;
+    width: 20%;
   }
   .nav-list {
     display: flex;
