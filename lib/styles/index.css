@@ -32,6 +32,7 @@ body {
 .hint {
   color: var(--orange);
 }
+
 .content-wrapper {
   margin-top: 2%;
   margin-left: 1%;
@@ -122,6 +123,10 @@ h1 {
   padding: 5%;
   margin: 5% auto;
   cursor: pointer;
+}
+
+.see-program {
+  display: none;
 }
 
 .speakers .section-title {
@@ -231,8 +236,11 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
   }
-  .nav-list li:first-child {
+  
+  .nav-item a {
+    text-decoration: none;
     color: var(--orange);
+
   }
   .nav-item  {
     cursor: pointer;
@@ -266,4 +274,51 @@ h1 {
     margin:  0;
     width: 60%;
   }
+
+  /* styling mian program section */
+  .main-program {
+    flex-wrap: wrap;
+  }
+  .program-content-wrapper {
+    margin-top:  26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .program-content {
+    flex-direction: column;
+    margin: 2px;
+    width: 12%;
+    padding: 2%;
+    text-align: center;
+    justify-content:start;
+    row-gap: 12px;
+    height: 200px;
+  }
+  .program-content img {
+    width: 25%;
+    height: 20%;
+  }
+  .content-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .content-description {
+    color: var(--grey);
+  }
+  .program-content p {
+    margin: 0;
+  }
+  .join-us {
+    display: none;
+  }
+
+.see-program {
+  display: block;
+  color: var(--grey);
+  font-weight: 600;
+  margin-top: 5%;
+}
+
+  
 }
