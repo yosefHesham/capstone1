@@ -299,7 +299,11 @@ h1 {
     row-gap: 12px;
     height: 200px;
   }
- 
+  .program-content:hover {
+    border: #d3d3d3;
+    border-style: solid;
+    border-width: 1px;
+  }
   .program-content img {
     width: 25%;
     height: 20%;
