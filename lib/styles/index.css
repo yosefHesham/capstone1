@@ -44,6 +44,15 @@ h1 {
 }
 .logo {
   text-decoration: none;
+  background-image: url("../../images/orange.jpg");
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.logo h1 {
+  font-size: 32px;
+  font-weight: 900;
 }
 .description {
   margin: auto auto;

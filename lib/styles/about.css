@@ -6,7 +6,6 @@
   background: url("../../images/hero.png");
   background-size: cover;
   padding-bottom: 15%;
-  padding-top: 2%;
 }
 
 .about-headline {
@@ -149,3 +148,71 @@ footer {
 }
 
 
+
+@media only  screen and (min-width:768px){
+  .menu {
+    display: none;
+  }
+  .desktop-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .tool-bar {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 20px;
+    align-items: center;
+  }
+  .tool-bar-item {
+    color: white;
+    cursor: pointer;
+  }
+  .last-item {
+    margin-right: 18%;
+  }
+
+  .navbar {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    width: 30%;;
+    column-gap: 10px;
+  }
+  .nav-logo img {
+    width: 20%;
+  }
+  .nav-list {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    color: var(--orange);
+  }
+  .nav-item {
+    cursor: pointer;
+    color: var(--black);
+  }
+  .cc-campaign {
+    display: flex;
+    align-items: center;
+    border: var(--orange);
+    border-style: solid;
+    border-width: 2px;
+    padding: 1%;
+    color: var(--orange);
+    cursor: pointer;
+  }
+  
+}
