@@ -366,7 +366,7 @@ footer {
     margin-top: 26px;
   }
   .expanded {
-    display: block;
+    display:flex !important;
   }
   
 
