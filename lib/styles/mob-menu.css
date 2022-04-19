@@ -1,8 +1,4 @@
-.menu {
-  margin-top: 12px;
-  margin-left: 12px;
-  cursor: pointer;
-}
+
 .nav-menu {
   display: none;
   position: absolute;
@@ -23,10 +19,8 @@
   margin-top: 0;
   padding: 0;
   row-gap: 12px;
-}
-
-  
-.nav-item a {
+} 
+.mob-nav-item a {
   text-decoration: none;
   color: var(--grey);
   cursor: pointer;

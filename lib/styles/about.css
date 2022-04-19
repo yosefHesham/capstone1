@@ -11,6 +11,11 @@ body {
   background: url("../../images/hero.png");
   background-size: cover;
 }
+.menu {
+  margin-top: 12px;
+  margin-left: 12px;
+  cursor: pointer;
+}
 
 .about-wrapper {
   margin: 0;
