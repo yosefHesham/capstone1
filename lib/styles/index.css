@@ -37,12 +37,10 @@ body {
   margin-top: 2%;
   margin-left: 1%;
 }
-h1 {
-  color: var(--orange);
-  margin-top: 0;
-  margin-left: 10px;
-}
+
 .logo {
+  font-size: 32px;
+  color: var(--orange);
   text-decoration: none;
   background-image: url("../../images/orange.jpg");
   -webkit-text-fill-color: transparent;
@@ -51,9 +49,11 @@ h1 {
   background-clip: text;
 }
 .logo h1 {
-  font-size: 32px;
-  font-weight: 900;
+  margin-top: 0;
+  margin-left: 10px;
+  width: 60%;
 }
+
 .description {
   margin: auto auto;
   width: 85%;
