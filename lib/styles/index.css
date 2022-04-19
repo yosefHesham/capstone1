@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kumbh+Sans:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kumbh+Sans:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
 @font-face {
-  font-family: 'cocogoose';
+  font-family: "cocogoose";
   src: url("fonts/cocogoose/");
 }
 :root {
@@ -12,7 +12,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:  "cocogoose", "lato",sans-serif;
+  font-family: "cocogoose", "lato", sans-serif;
 }
 .menu {
   cursor: pointer;
@@ -74,6 +74,12 @@ h1 {
   padding-bottom: 10%;
   display: flex;
   flex-direction: column;
+}
+
+.program-content-wrapper {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
   row-gap: 10px;
 }
 
@@ -131,7 +137,7 @@ h1 {
 
 .speakers .section-title {
   color: var(--black);
-  margin-top: 5px;
+  margin-top: 3%;
 }
 .speakers {
   background-color: white;
@@ -191,7 +197,7 @@ h1 {
   fill: var(--orange);
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
   .menu {
     display: none;
   }
@@ -236,20 +242,19 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
   }
-  
+
   .nav-item a {
     text-decoration: none;
     color: var(--orange);
-
   }
-  .nav-item  {
+  .nav-item {
     cursor: pointer;
-    color:var(--black)
+    color: var(--black);
   }
   .cc-campaign {
     display: flex;
     align-items: center;
-    border:var(--orange);
+    border: var(--orange);
     border-style: solid;
     border-width: 2px;
     padding: 1%;
@@ -261,7 +266,7 @@ h1 {
   }
   .content-wrapper {
     margin-left: 10%;
-    margin-top: 8% ;
+    margin-top: 8%;
     margin-right: auto;
     display: flex;
     flex-direction: column;
@@ -271,17 +276,16 @@ h1 {
     font-weight: 500;
   }
   .description {
-    margin:  0;
+    margin: 0;
     width: 60%;
   }
 
-  /* styling mian program section */
+  /* Desktop main program*/
   .main-program {
     flex-wrap: wrap;
   }
   .program-content-wrapper {
-    margin-top:  26px;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
@@ -291,10 +295,11 @@ h1 {
     width: 12%;
     padding: 2%;
     text-align: center;
-    justify-content:start;
+    justify-content: start;
     row-gap: 12px;
     height: 200px;
   }
+ 
   .program-content img {
     width: 25%;
     height: 20%;
@@ -313,12 +318,36 @@ h1 {
     display: none;
   }
 
-.see-program {
-  display: block;
-  color: var(--grey);
-  font-weight: 600;
-  margin-top: 5%;
-}
+  .see-program {
+    display: block;
+    color: var(--grey);
+    font-weight: 600;
+    margin-top: 5%;
+  }
 
-  
+  /* Desktop Speakers */
+  .speaker {
+    width: 45%;
+    background-image: url("../../images/chess-desktop.png");
+    background-position-y: 0px;
+    background-position-x: -5px;
+    padding: 0.8%;
+    background-size: 10%;
+  }
+  .speaker img {
+    width: 15%;
+  }
+  .speakers-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 12px;
+    padding: 0 4%;
+    margin-top: 26px;
+  }
+
+  .more-button {
+    display: none;
+  }
 }
