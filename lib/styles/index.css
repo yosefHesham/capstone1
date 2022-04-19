@@ -84,7 +84,7 @@ h1 {
 }
 
 .section-title {
-  color: white;
+  color: var(--grey);
   text-align: center;
 
   margin-top: 0;
@@ -141,9 +141,18 @@ h1 {
 }
 .speakers {
   background-color: white;
+ 
+}
+.expanded {
+  display: none !important;
+}
+
+.speakers-wrapper {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
+  padding: 0 2%;
+  margin-top: 10%;
 }
 
 .speaker {
@@ -153,6 +162,7 @@ h1 {
   background-position-y: 2%;
   background-repeat: no-repeat;
   width: 100%;
+  padding: 3%;
   display: flex;
   align-items: flex-start;
   column-gap: 15px;
@@ -195,6 +205,10 @@ h1 {
 }
 .more-button img {
   fill: var(--orange);
+}
+
+footer {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -334,7 +348,7 @@ h1 {
     width: 45%;
     background-image: url("../../images/chess-desktop.png");
     background-position-y: 0px;
-    background-position-x: -5px;
+    background-position-x: 0px;
     padding: 0.8%;
     background-size: 10%;
   }
@@ -347,11 +361,61 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 12px;
-    padding: 0 4%;
+    padding: 0 5%;
     margin-top: 26px;
   }
+  .expanded {
+    display: block;
+  }
+  
 
   .more-button {
     display: none;
+  }
+
+  /* Desktop footer */
+  footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partner {
+    background-color: var(--black);
+    padding-top: 20px;
+  }
+  .logos {
+    width: 100%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 5%;
+    flex-wrap: wrap;
+  }
+
+  .logos img {
+    width: 8%;
+    height: 8%;
+    margin: 0;
+  }
+
+  .copy-rights {
+    padding: 1% 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .copy-rights img {
+    height: 5%;
+    width: 5%;
+  }
+  .partner hr {
+    margin-top: 2%;
+    width: 2%;
   }
 }
