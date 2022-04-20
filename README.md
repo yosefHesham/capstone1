@@ -3,6 +3,10 @@
 # ACPC Summit (Microverse captsone 1)
 
 > This website is about fictional acpc summit, which is a summit for competitive programmers.
+- Home Page             
+![](images/home.png)
+- About Page
+![](images/about.png)
 
 
 ## Built With
