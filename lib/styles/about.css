@@ -285,6 +285,7 @@ footer {
   .copy-rights {
     background-color: var(--black);
     padding: 2% 0;
+    width: 100%;
   }
   .footer-logo {
     width: 5% !important;

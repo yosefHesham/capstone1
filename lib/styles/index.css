@@ -406,6 +406,7 @@ footer {
   .partner {
     background-color: var(--black);
     padding-top: 20px;
+    width: 100%;
   }
   .logos {
     width: 100%;
