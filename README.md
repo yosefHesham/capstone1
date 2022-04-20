@@ -1,19 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# ACPC Summit (Microverse captsone 1)
 
-> Description the project.
+> This website is about fictional acpc summit, which is a summit for competitive programmers.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS
+- Javascript
+- Linters
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://yosefhesham.github.io/capstone1/)
 
 
 ## Getting Started
