@@ -153,9 +153,6 @@ body {
   background-color: white;
  
 }
-.expanded {
-  display: none !important;
-}
 
 .speakers-wrapper {
   display: flex;
@@ -178,6 +175,10 @@ body {
   align-items: flex-start;
   column-gap: 15px;
 }
+.expanded {
+  display: none;
+}
+
 .speaker img {
   width: 25%;
   padding: 2%;
@@ -389,7 +390,7 @@ footer {
 
   }
   .expanded {
-    display:flex !important;
+    display:flex !important ;
   }
   
 
