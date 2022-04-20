@@ -30,6 +30,7 @@ body {
   padding-bottom: 30%;
 }
 .hint {
+  margin-top: 10%;
   color: var(--orange);
 }
 
@@ -56,7 +57,9 @@ body {
 }
 
 .description {
-  margin: auto auto;
+  margin-top: auto;
+  margin-left: 10px;
+  
   width: 85%;
   padding: 3%;
   color: var(--black);
@@ -369,13 +372,13 @@ footer {
   .speaker {
     width: 40%;
     background-image: url("../../images/chess-desktop.png");
-    background-position-y: 10px;
-    background-position-x: 10px;
+    background-position-y: 8px;
+    background-position-x: 2px;
     padding: 0.5%;
-    background-size: 7%;
+    background-size: 10%;
   }
   .speaker img {
-    width: 10%;
+    width: 18%;
   }
 
   .speakers-wrapper {
