@@ -200,9 +200,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
   /* desktop top bar */
-  .menu {
-    display: none;
-  }
+
   .desktop-bar {
     display: flex;
     flex-direction: column;

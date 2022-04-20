@@ -34,3 +34,9 @@
   margin-right: 5%;
   cursor: pointer;
 }
+
+@media only screen and (min-width:768px) {
+  .menu {
+    display: none ;
+  }
+}
