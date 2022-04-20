@@ -3,20 +3,25 @@
   --black: #272a31;
   --orange: #ec5242;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kumbh+Sans:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
 @font-face {
   font-family: "cocogoose";
   src: url("fonts/cocogoose/");
 }
+
 body {
   margin: 0;
   padding: 0;
   font-family: "cocogoose", "lato", sans-serif;
 }
+
 .about-headline {
   background: url("../../images/hero.png");
   background-size: cover;
 }
+
 .menu {
   margin-top: 12px;
   margin-left: 12px;
@@ -29,12 +34,15 @@ body {
   padding-bottom: 15%;
   text-align: center;
 }
+
 .desktop-bar {
   display: none;
 }
+
 .hint {
   color: var(--orange);
 }
+
 .logo {
   font-size: 22px;
   text-decoration: none;
@@ -42,20 +50,11 @@ body {
   margin: 0 auto;
   color: var(--orange);
 }
-.logo h1 {
-  margin-top: 20x;
-}
-.menu {
-  text-align: start !important;
-  margin-right: auto;
-  margin-left: 12px;
-}
 
 .about-description {
   width: 85%;
   height: 25vh;
   padding: 3%;
-
   line-height: 1.5;
   margin: auto;
   display: flex;
@@ -82,6 +81,7 @@ body {
   text-decoration: underline;
   font-weight: 600;
 }
+
 .logo-description {
   color: var(--black);
   background-color: white !important;
@@ -123,9 +123,11 @@ body {
   position: relative;
   width: 70%;
 }
+
 .past-summit img {
   width: 100%;
 }
+
 .past-summit p {
   margin: 0;
 }
@@ -140,6 +142,7 @@ body {
   justify-content: center;
   row-gap: 12px;
 }
+
 .overlay p {
   z-index: 2;
   color: white;
@@ -157,6 +160,7 @@ footer {
   background-color: var(--black);
   padding-top: 20px;
 }
+
 .logos {
   width: 100%;
   margin-top: 25px;
@@ -183,16 +187,19 @@ footer {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .copy-rights img {
   height: 12%;
   width: 12%;
 }
+
 .section-line {
   border-color: var(--orange);
   width: 10%;
   height: 1%;
   margin: 5px auto;
 }
+
 .section-title {
   margin-bottom: 10px;
   color: var(--black);
@@ -205,6 +212,7 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
   .tool-bar {
     background-color: var(--black);
     display: flex;
@@ -213,10 +221,12 @@ footer {
     column-gap: 20px;
     align-items: center;
   }
+
   .tool-bar-item {
     color: white;
     cursor: pointer;
   }
+
   .last-item {
     margin-right: 18%;
   }
@@ -227,15 +237,18 @@ footer {
     display: flex;
     justify-content: space-evenly;
   }
+
   .nav-logo {
     display: flex;
     align-items: center;
     width: 30%;
     column-gap: 10px;
   }
+
   .nav-logo img {
     width: 20%;
   }
+
   .nav-list {
     display: flex;
     list-style: none;
@@ -248,10 +261,12 @@ footer {
     text-decoration: none;
     color: var(--orange);
   }
+
   .nav-item {
     cursor: pointer;
     color: var(--black);
   }
+
   .cc-campaign {
     display: flex;
     align-items: center;
@@ -267,6 +282,7 @@ footer {
   .logo {
     font-size: 32px;
   }
+
   .about-description {
     height: 30vh;
     width: 60%;
@@ -280,17 +296,21 @@ footer {
   .partner {
     display: none;
   }
+
   .copy-rights {
     background-color: var(--black);
     padding: 2% 0;
     width: 100%;
   }
+
   .footer-logo {
     width: 5% !important;
   }
+
   .copyrights {
     color: white;
   }
+
   .logo-description {
     padding: 3%;
   }
@@ -311,6 +331,7 @@ footer {
     justify-content: center;
     column-gap: 10px;
   }
+
   .past-summit {
     width: 30%;
   }
