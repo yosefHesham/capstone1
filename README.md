@@ -15,7 +15,7 @@
 - Javascript
 - Linters
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://yosefhesham.github.io/capstone1/)
 
@@ -23,12 +23,12 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-- Npm and node js
+- Npm
 - Git and Github
 
 
 ### Install
-- Clone the repo from [Here](https://github.com/yosefHesham/capstone1)
+- Clone the repo using: `git clone https://github.com/yosefHesham/capstone1`
 - Go to index.html
 - run the file
 
