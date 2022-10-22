@@ -237,6 +237,7 @@ body {
   margin: auto;
   text-align: center;
   cursor: pointer;
+  align-items: center;
 }
 
 .more-button img {
